@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+.App {
+
+}
+
+.heading {
+  margin: 10px;
+}
+
+.nav {
+  display: block;
+  margin: 10px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.collections {
+  overflow: hidden;
+}
+
+.organism-collectionBox {
+    border: solid 1px #d6d6d6;
+    width: 250px;
+    float: left;
+    margin: 10px;
+    height: 250px;
+}
+
+.collectionBox-fullLinkWrapper {
+    text-decoration: none;
+}
+.collectionBox-coverImageWrapper {
+    position: relative;
+}
+.collectionBox-coverImage {
+    width: 100%;
+    padding-top: 65%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.collectionBox-countdownWrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.collectionBox-content {
+    padding: 10px;
+    height: 65px;
+}
+.collectionBox-title {
+    display: block;
+    margin-bottom: 5px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.collectionBox-subtitle {
+    display: block;
+    margin-bottom: 7px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 1.35;
+    color: #8b8b8b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+.collectionBox-priceAndRating {
+    overflow: hidden;
+}
+.collectionBox-pricingWrapper {
+    float: left;
+}
+.collectionBox-ratingWrapper {
+    float: right;
+}
+
+
+
+.molecule-priceHighlight {
+  overflow: hidden;
+  line-height: 18px;
+}
+
+.priceHighlight-discountPercentage,
+.priceHighlight-value,
+.priceHighlight-price  {
+  float: left;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.priceHighlight-discountPercentage {
+  color: #c01c3c;
+  font-weight: 600;
+}
+
+.priceHighlight-value {
+  color: #CCC;
+  text-decoration: line-through;
+}
+
+.priceHighlight-price {
+  color: #222;
+  font-weight: 700;
+  font-size: 17px;
+}
