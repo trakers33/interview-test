@@ -1,17 +1,17 @@
 # React Interview Test
 
-To run this project you will need to:
+To run this project you will need to:  
 npm install -g create-react-app
 
-Then clone the app found at:
+Then clone the app found at:  
 git clone https://github.com/Fasani/interview-test
 
 To run the project do:  
 npm install  
 npm start
 
-Important Note:
-You will need to run your browser with same origin policy disabled.
+Important Note:  
+You will need to run your browser with same origin policy disabled.  
 https://en.wikipedia.org/wiki/Same-origin_policy
 
 ## Task 1:
