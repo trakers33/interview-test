@@ -4,7 +4,7 @@ To run this project you will need to:
 npm install -g create-react-app
 
 Then clone the app found at:  
-git clone https://github.com/Fasani/interview-test
+https://github.com/Fasani/interview-test
 
 To run the project do:  
 npm install  
