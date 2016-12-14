@@ -6,7 +6,8 @@ npm install -g create-react-app
 Then clone the app found at:
 git clone https://github.com/Fasani/interview-test
 
-To run the project do:
+To run the project do:  
+npm install  
 npm start
 
 Important Note:
