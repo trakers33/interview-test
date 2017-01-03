@@ -121,3 +121,7 @@
   font-weight: 700;
   font-size: 17px;
 }
+.disablePagination {
+  pointer-events: none;
+  color:grey;
+}

@@ -20,7 +20,13 @@ class Collection extends Component {
             <h3 className="collectionBox-subtitle">{this.props.secondaryTitle}</h3>
             <div className="collectionBox-priceAndRating">
               <div className="collectionBox-pricingWrapper">
-                <PriceHighlight />
+                <PriceHighlight 
+                  showDiscount={this.props.showDiscount}
+                  showPrice={this.props.showPrice}
+                  showValue={this.props.showValue}
+                  discountPercent={this.props.discountPercent}
+                  value={this.props.value}
+                  price={this.props.price}/>
               </div>
             </div>
           </div>
